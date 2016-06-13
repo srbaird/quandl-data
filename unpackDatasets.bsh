@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# the directory
+directory=codes
+
+for zipfile in `ls $directory/*.zip`;
+do
+	filename=`echo "$zipfile" | sed 's/^.*codes\///g'`
+	filename=`echo "$filename" | sed 's/-datasets.*//g'`
+#	filename=`echo "$filename" | sed 's/^.*codes\/\(.*\)-datasets.*$/\1/'`
+	zcat "$zipfile" 
+#	echo "$zipfile -> $filename"
+#	echo Getting zipfile $zipfile
+done 
+

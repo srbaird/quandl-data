@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# Authorisation file identity
+authfile=".authfile"
+
+# Read authorisation id
+if [ -e $authfile  ]
+then
+	echo "Authentication file found"
+	authid=`cat $authfile`
+else
+	echo "Authentication file not found"
+	exit -1
+fi
+
+
+# get directory
+if [ -d $1  ]
+then
+	directory=$1
+else
+	echo "$1 is not a directory"
+	exit -1
+fi
+
+# Start date file identity
+startdatefile="$directory/.startdatefile"
+
+# Read start date
+if [ -e $startdatefile  ]
+then
+	startdate=`cat $startdatefile`
+	echo "Start date for retrieval is $startdate"
+	dateparam="&start_date=$startdate"
+else
+	echo "No start date parameter available"
+	dateparam=""
+fi
+
+# data set REST adress
+source="https://www.quandl.com/api/v3/datasets/"
+
+for file in `ls $directory/datasets_*`
+do
+	echo "Processing $file"
+	for code in `cat "$file" | cut -d, -f1`
+	do
+		[[ $code =~ ^(^.*\/)(.*) ]]
+		dsname=${BASH_REMATCH[2]}
+		cmd="curl -o $directory/$dsname.csv $source$code.csv?api_key=$authid$dateparam -X GET"
+		`$cmd`
+	done
+done
+
+# update the contents of the start date file
+date +%Y-%m-%d > $startdatefile

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Authorisation file identity
+authfile=".authfile"
+
+# Read authorisation id
+if [ -e $authfile  ]
+then
+  echo "Authentication file found"
+  authid=`cat $authfile`
+else
+  echo "Authentication file not found"
+  exit -1
+fi
+
+
+echo "auth id" $authid

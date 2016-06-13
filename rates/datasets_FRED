@@ -1,0 +1,10 @@
+FRED/DFF,Effective Federal Funds Rate
+FRED/DTB3,3-Month Treasury Bill: Secondary Market Rate
+FRED/DGS5,5-Year Treasury Constant Maturity Rate
+FRED/DGS10,10-Year Treasury Constant Maturity Rate
+FRED/DGS30,30-Year Treasury Constant Maturity Rate
+FRED/T5YIE,5-Year Breakeven Inflation Rate
+FRED/T10YIE,10-Year Breakeven Inflation Rate
+FRED/T5YIFR,"5-Year, 5-Year Forward Inflation Expectation Rate"
+FRED/TEDRATE,TED Spread
+FRED/DPRIME,Bank Prime Loan Rate

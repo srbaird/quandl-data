@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Authorisation file identity
+authfile=".authfile"
+
+# Read authorisation id
+if [ -e $authfile  ]
+then
+  echo "Authentication file found"
+  authid=`cat $authfile`
+else
+  echo "Authentication file not found"
+  exit -1
+fi
+
+# Read and filter database lists
+
+for i in `seq 1 4`;
+do
+	echo Getting page $i
+	curl  "https://www.quandl.com/api/v3/databases?page=$i&api_key=$authid" -X GET |	\
+	jq '.databases[] | {name: .name, code: .database_code,premium: .premium} | select(.premium == false)' \
+	> DBList$i.json
+done    
+
+# print out the database codes
+grep code DBList*.json | cut -d":" -f3 | sed 's/.*"\(.*\)"[^"]*$/\1/'
+
+

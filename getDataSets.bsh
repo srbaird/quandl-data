@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Authorisation file identity
+authfile=".authfile"
+
+# Read authorisation id
+if [ -e $authfile  ]
+then
+  echo "Authentication file found"
+  authid=`cat $authfile`
+else
+  echo "Authentication file not found"
+  exit -1
+fi
+
+# Remove the dataset files
+
+rm DS_*
+
+# Read and filter database codes
+while read line
+do
+	echo "https://www.quandl.com/api/v3/databases/$line/codes?api_key=$authid"
+#        downloadURI=`curl "https://www.quandl.com/api/v3/databases/$line/codes?api_key=$authid" -X GET` 
+#	downloadURI=`echo "$downloadURI" | sed 's/.*href="\(.*\)">redirected.*$/\1/'`
+#	echo "$downloadURI" | sed 's/.*href="\(.*\)">redirected.*$/\1/' > DS_$line
+#	echo "Get dataset from $downloadURI"
+#	curl -o DS_$line $downloadURI -X GET
+
+
+done < "${1:-/dev/stdin}"
+
