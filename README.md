@@ -26,3 +26,8 @@ grep ^BOE/IUD alldatasets  > rates/datasets_BOE_IUD
 
 # Simple search of rates dataset file
 sed 's/^\(.*\),".*ate, \(.*\) into \(.*\)"/\1, \2,\3/g' datasets_
+
+# Sort out problem with quotes on commodity meta data
+sed '/"/!d' commodity.meta >  commodity.meta.filtered
+sed '/"/d' commodity.meta | sed 's/\(.*\),\(.*\)/\1,"\2"/g' >> commodity.meta.filtered
+sort commodity.meta.filtered | uniq > commodity.meta.filtered.uniq
