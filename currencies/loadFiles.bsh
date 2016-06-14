@@ -1,0 +1,80 @@
+#!/bin/bash
+
+# Database authorisation file
+dbauthfile=".dbauthfile"
+
+# Read authorisation id
+# ---------------------
+if [ -e $dbauthfile  ]
+then
+        mysql=`cat $dbauthfile`
+else
+        echo "Authentication file not found"
+        exit -1
+fi
+
+# vars
+# ----
+dbname="pLoad"
+directory=`pwd`
+tablename="currencyRates"
+
+# temp files 
+# ----------
+cmdfile=cmdfile$$
+loadcmdfile=loadcmdfile$$
+datafile=datafile$$
+
+# truncate the table
+# ------------------
+echo "TRUNCATE TABLE $dbname.$tablename;" > $cmdfile
+#echo "Command: " `cat $cmdfile`
+
+$mysql < $cmdfile
+
+# process the csv files
+# ---------------------
+
+
+# store the load command
+# ----------------------
+echo "LOAD DATA INFILE '$directory/$datafile' IGNORE INTO TABLE $dbname.$tablename FIELDS TERMINATED BY ',';" > $loadcmdfile
+
+# loop round the data files
+# -------------------------
+for file in `ls ./*.csv`
+do
+	# strip off directory part
+	# ------------------------ 
+	[[ $file =~ ^(^.*\/)(.*)\.csv ]]
+	filename=${BASH_REMATCH[2]}
+
+	echo "Processing file $file"
+
+	# include the file name in the data to be loaded
+	# ----------------------------------------------
+	echo "s/\(.*\)/$filename,\1/g" > $cmdfile
+	sed -f $cmdfile $file > $datafile
+
+	# load the temp datafile into the table
+	# -------------------------------------
+	$mysql < $loadcmdfile
+
+done
+
+# clean up temp files
+# -------------------
+if [ -e $cmdfile ]
+then
+	rm $cmdfile
+fi
+
+if [ -e $loadcmdfile ]
+then
+	rm $loadcmdfile
+fi
+
+if [ -e $datafile ]
+then
+	rm $datafile
+fi
