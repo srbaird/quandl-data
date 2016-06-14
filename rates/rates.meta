@@ -1,0 +1,75 @@
+BOE_IUDLNIF;Yield from British Government Securities, 20 year Nominal Implied Forward
+BOE_IUDBK58;Yield from BoE Euro Treasury Note 2.75%  2006
+BOE_IUDGR1M;Daily Gilt repo interest rate, 1 month
+BOE_IUDLNPY;Yield from British Government Securities, 20 year Nominal Par Yield
+BOE_IUDLIIF;Yield from British Government Securities, 20 year Inflation Implied Forward
+BOE_IUDVJND;Daily Eligible bills discount rate, 1 month
+BOE_IUDES3A;Daily 3 month Euro-Sterling deposit interest rate, mean offer_bid
+BOE_IUDSNZC;Yield from British Government Securities, 5 year Nominal Zero Coupon
+BOE_IUDMNIF;Yield from British Government Securities, 10 year Nominal Implied Forward
+BOE_IUDMNPY;Yield from British Government Securities, 10 year Nominal Par Yield
+BOE_IUDGR1Y;Daily Gilt repo interest rate, 1 year
+BOE_IUDVCDA;Daily Sterling certificates of deposit interest rate, 3 months, mean offer_bid
+BOE_IUDMRZC;Yield from British Government Securities, 10 year Real Zero Coupon
+BOE_IUDSNPY;Yield from British Government Securities, 5 year Nominal Par Yield
+BOE_IUDLRIF;Yield from British Government Securities, 20 year Real Implied Forward
+BOE_IUDL1EP;Euro-commercial paper rates:1 month, dollar
+BOE_IUDGR1W;Daily Gilt repo interest rate, 1 week
+BOE_IUDAMIH;Daily average of 4 UK Banks' base rates
+BOE_IUDMNZC;Yield from British Government Securities, 10 year Nominal Zero Coupon
+BOE_IUDBEDR;Official Bank Rate
+BOE_IUDL3EEP;Euro-commercial paper rates: 3 month, euro
+BOE_IUDERB3;Daily 3 month EURIBOR
+BOE_IUDLER3;Daily Euro 3 month interbank lending rate
+BOE_IUDSIZC;Yield from British Government Securities, 5 year Inflation Zero Coupon
+BOE_IUDSRIF;Yield from British Government Securities, 5 year Real Implied Forward
+BOE_IUDL2EP;Euro-commercial paper rates: 2 month, dollar
+BOE_IUDSIIF;Yield from British Government Securities, 5 year Inflation Implied Forward
+BOE_IUDSNIF;Yield from British Government Securities, 5 year Nominal Implied Forward
+BOE_IUDLRZC;Yield from British Government Securities, 20 year Real Zero Coupon
+BOE_IUDSOIA;Daily Sterling overnight index average (SONIA) lending rate
+BOE_IUDLUST;Daily average rate of discount, 3 month Treasury Bills, US Dollar
+BOE_IUDAJND;Daily Eligible bills discount rate, 3 month
+BOE_IUDGR3M;Daily Gilt repo interest rate, 3 months
+BOE_IUDSRZC;Yield from British Government Securities, 5 year Real Zero Coupon
+BOE_IUDAJUR;Yield from 2% Index Linked Treasury Stock 2006
+BOE_IUDAMIJ;Sterling 3 Month Mean Interbank Lending Rate
+BOE_IUDGR2W;Daily Gilt repo interest rate, 2 week
+BOE_IUDVYRA;Daily Sterling 1 year mean interbank lending rate
+BOE_IUDLEB3;Daily average rate of discount, BoE 3 month Euro Bills, Euro
+BOE_IUDL6EEP;Euro-commercial paper rates: 6 month, euro
+BOE_IUDMIZC;Yield from British Government Securities, 10 year Inflation Zero Coupon
+BOE_IUDVWLA;Sterling 2 Week Mean Interbank Lending Rate
+BOE_IUDL6EP;Euro-commercial paper rates: 6 months, dollar
+BOE_IUDVSMA;Sterling 6 Month Mean Interbank Lending Rate
+BOE_IUDED3A;Daily 3 month Euro-Dollar deposit interest rate, mean offer_bid
+BOE_IUDAJLT;Yield from 2.5% Index Linked Treasury Stock 2016
+BOE_IUDL2ESE;Euro-commercial paper rates: 2 month, sterling
+BOE_IUDL3EP;Euro-commercial paper rates: 3 month, dollar
+BOE_IUDMIIF;Yield from British Government Securities, 10 year Inflation Implied Forward
+BOE_IUDMRIF;Yield from British Government Securities, 10 year Real Implied Forward
+BOE_IUDGRON;Daily Gilt repo interest rate, overnight
+BOE_IUDED3O;Daily 3 month Euro-currency, offered rate, US Dollar
+BOE_IUDL3ESE;Euro-commercial paper rates: 3 month, sterling
+BOE_IUDWRLN;Flat yield from 3.5% War loan stock
+BOE_IUDL2EEP;Euro-commercial paper rates: 2 month, euro
+BOE_IUDGR6M;Daily Gilt repo interest rate, 6 months
+BOE_IUDL1ESE;Euro-commercial paper rates: 1 month, sterling
+BOE_IUDLIZC;Yield from British Government Securities, 20 year Inflation Zero Coupon
+BOE_IUDVWKA;Daily Sterling 1 week mean interbank lending rate
+BOE_IUDVNEA;Sterling 1 Month Mean Interbank Lending Rate
+BOE_IUDL6ESE;Euro-commercial paper rates: 6 month, sterling
+BOE_IUDL1EEP;Euro-commercial paper rates: 1 month, euro
+BOE_IUDAJLW;Calculated 10 year par gross redemption yield on British Government Securities
+BOE_IUDLNZC;Yield from British Government Securities, 20 year Nominal Zero Coupon
+BOE_IUDEBEN;Yield from BoE euro Treasury Note 4.5% to 2004
+FRED_DFF;Effective Federal Funds Rate
+FRED_DTB3;3-Month Treasury Bill: Secondary Market Rate
+FRED_DGS5;5-Year Treasury Constant Maturity Rate
+FRED_DGS10;10-Year Treasury Constant Maturity Rate
+FRED_DGS30;30-Year Treasury Constant Maturity Rate
+FRED_T5YIE;5-Year Breakeven Inflation Rate
+FRED_T10YIE;10-Year Breakeven Inflation Rate
+FRED_T5YIFR;5-Year, 5-Year Forward Inflation Expectation Rate
+FRED_TEDRATE;TED Spread
+FRED_DPRIME;Bank Prime Loan Rate

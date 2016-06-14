@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Database authorisation file
+dbauthfile=".dbauthfile"
+
+# Read authorisation id
+# ---------------------
+if [ -e $dbauthfile  ]
+then
+	mysql=`cat $dbauthfile`
+else
+	echo "Authentication file not found"
+	exit -1
+fi
+
+dbname="pLoad"
+directory=`pwd`
+filename="rates.meta"
+tablename="ratesMeta"
+cmdfile=metacmdfile$$
+
+# truncate the table
+# ------------------
+echo "TRUNCATE TABLE $dbname.$tablename;" > $cmdfile
+echo "Command: " `cat $cmdfile` 
+
+$mysql <  $cmdfile
+
+# load the file
+# -------------
+echo "LOAD DATA INFILE '$directory/$filename' INTO TABLE $dbname.$tablename FIELDS TERMINATED BY ';'" > $cmdfile
+echo "Command: " `cat $cmdfile` 
+
+$mysql <  $cmdfile
+
+# clean up
+# --------
+if [ -e $cmdfile ]
+then
+	rm $cmdfile
+fi
+

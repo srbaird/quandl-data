@@ -17,7 +17,7 @@ fi
 # ----
 dbname="pLoad"
 directory=`pwd`
-tablename="currencyLoad"
+tablename="ratesLoad"
 
 # temp files 
 # ----------
@@ -54,7 +54,7 @@ do
 	# include the file name in the data to be loaded
 	# ----------------------------------------------
 	echo "s/\(.*\)/$filename,\1/g" > $cmdfile
-	sed -f $cmdfile $file > $datafile
+	sed -f $cmdfile $file | tail -n +2 > $datafile
 
 	# load the temp datafile into the table
 	# -------------------------------------
