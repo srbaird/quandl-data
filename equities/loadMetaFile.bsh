@@ -15,8 +15,8 @@ fi
 
 dbname="pLoad"
 directory=`pwd`
-filename="commodity.meta"
-tablename="commodityMeta"
+filename="equities.meta"
+tablename="equitiesMeta"
 cmdfile=metacmdfile$$
 
 # truncate the table
