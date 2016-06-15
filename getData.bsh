@@ -45,10 +45,13 @@ do
 	echo "Processing $file"
 	for code in `cat "$file" | cut -d, -f1`
 	do
-		[[ $code =~ ^(^.*\/)(.*) ]]
+		[[ $code =~ ^(.*)/(.*)$ ]]
+		dscode=${BASH_REMATCH[1]}
 		dsname=${BASH_REMATCH[2]}
-		cmd="curl -o $directory/$dsname.csv $source$code.csv?api_key=$authid$dateparam -X GET"
-		`$cmd`
+		sep="_"
+		echo "Download $code -> $dscode$sep$dsname.csv"
+		cmd="curl -o $directory/$dscode$sep$dsname.csv $source$code.csv?api_key=$authid$dateparam -X GET"
+		rc=`$cmd`
 	done
 done
 
