@@ -42,7 +42,7 @@ echo "LOAD DATA INFILE '$directory/$datafile' IGNORE INTO TABLE $dbname.$tablena
 
 # loop round the data files
 # -------------------------
-for file in `ls ./*.csv`
+for file in `ls ./WIKI*.csv`
 do
 	# strip off directory part
 	# ------------------------ 
@@ -54,6 +54,9 @@ do
 	# include the file name in the data to be loaded
 	# ----------------------------------------------
 	echo "s/\(.*\)/$filename,\1/g" > $cmdfile
+
+	# Drop header row and only take first 7 columns
+	# ---------------------------------------------
 	sed -f $cmdfile $file | tail -n +2 | cut -d"," -f1-7 > $datafile
 
 	# load the temp datafile into the table
