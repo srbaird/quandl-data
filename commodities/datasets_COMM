@@ -2,156 +2,77 @@ COM/AG_EFP,Engelhard fabricated products: Silver
 COM/AG_EIB,Engelhard industrial bullion - Silver
 COM/AG_FAB,Silver Fabric Price
 COM/AG_GBP,Silver Price -  London Fixing (GBP)
-COM/AG_HHB,Handy  &  Harman base price
-COM/AG_HHF,Silver Handy & Harman Base Price
 COM/AG_USD,Silver Price - London Fixing (USD)
-COM/AL_CMX,"Aluminum,COMEX"
-COM/AL_LME,"Aluminum, LME, $ per metric ton"
+COM/AL_LME,Aluminum, LME, $ per metric ton
 COM/AU_EFP,Engelhard fabricated products: Gold
-COM/AU_EGL,"Gold American Eagle, Spot Price"
+COM/AU_EGL,Gold American Eagle, Spot Price
 COM/AU_EIB,Engelhard Industrial Bullion - Gold
 COM/AU_LAM,Gold Price - London AM fixing
 COM/AU_LPM,Gold Price - London PM Fixing
-COM/AU_MPL,"Gold Maple Leaf, Spot Price"
+COM/AU_MPL,Gold Maple Leaf, Spot Price
 COM/AU_PHL,Gold Vienna Philharmonics
-COM/AU_ZAR,"Gold Kruggerand, Spot Price"
+COM/AU_ZAR,Gold Kruggerand, Spot Price
 COM/BEEF_C,Beef - Choice 1
 COM/BEEF_S,Beef - Select 1
-COM/BONE_MEAL,"Meat and Bone Meal, 50%"
-COM/BRAN,"Bran, wheat middlings, Kn. City by Rail; $ per ton"
-COM/BUTANE,"Mont Belvieu Normal Butane (OPIS),CME"
-COM/BUTTER,"Butter, AA Chicago, lb"
+COM/BONE_MEAL,Meat and Bone Meal, 50%
+COM/BRAN,Bran, wheat middlings, Kn. City by Rail
+COM/BUTANE,Mont Belvieu Normal Butane (OPIS),CME
+COM/BUTTER,Butter, AA Chicago, lb
 COM/CDXNAHY,Markit CDX North America High Yield
 COM/CDXNAIG,Markit CDX North America Investment Grade
-COM/CHEESE_BLK,"Cheddar cheese, blocks, Chicago lb."
-COM/CHEESE_BRL,"Cheddar cheese, barrels, Chicago lb."
-COM/CHKN_A,"Broilers, dressed 'A'; per lb."
+COM/CHEESE_BLK,Cheddar cheese, blocks, Chicago lb.
+COM/CHEESE_BRL,Cheddar cheese, barrels, Chicago lb.
+COM/CHKN_A,Broilers, dressed 'A'
 COM/CHKN_NTL,Broilers - National comp weighted avg
-COM/COAL_CAPP,"Central Appalachia 12,500 Btu, 1.2 SO2"
-COM/COAL_POWD,"Powder River Basin 8,800 Btu, 0.8 SO2"
-COM/COCOA,"Cocoa, ICE"
-COM/COFFEE_BRZL,"Coffee, Brazilian, Comp."
-COM/COFFEE_CLMB,"Coffee, Colombian, NY lb."
-COM/COPPER,"Copper,COMEX"
-COM/CORN_2,"Corn, No. 2 yellow. Cent. Ill. bu"
-COM/CORN_FEED,"Corn gluten feed, Midwest, ton"
-COM/CORN_MEAL,"Corn gluten meal, Midwest, ton"
-COM/CORN_OIL,"Corn oil, crude wet/dry mill"
+COM/COAL_CAPP,Central Appalachia 12,500 Btu, 1.2 SO2
+COM/COAL_POWD,Powder River Basin 8,800 Btu, 0.8 SO2
+COM/COCOA,Cocoa, ICE
+COM/COFFEE_BRZL,Coffee, Brazilian, Comp.
+COM/COFFEE_CLMB,Coffee, Colombian, NY lb.
+COM/COPPER,Copper,COMEX
+COM/CORN_2,Corn, No. 2 yellow. Cent. Ill. bu
+COM/CORN_FEED,Corn gluten feed, Midwest, ton
+COM/CORN_MEAL,Corn gluten meal, Midwest, ton
+COM/CORN_OIL,Corn oil, crude wet_dry mill
 COM/COTLOOK,Cotlook 'A' Index
-COM/COTTON,"Cotton,ICE"
-COM/CTNSD_MEAL,"Cottonseed meal, ton"
-COM/DIESEL_ULS,"Diesel Fuel, 15 ppm S, NY harbor ultra"
+COM/COTTON,Cotton,ICE
+COM/CTNSD_MEAL,Cottonseed meal, ton
+COM/DIESEL_ULS,Diesel Fuel, 15 ppm S, NY harbor ultra
 COM/DTGAA,DTCC GCF Repo Index - Agency Weighted Average
 COM/DTGAP,DTCC GCF Repo Index - Agency Total Par Value
 COM/DTGMA,DTCC GCF Repo Index - MBS Weighted Average
 COM/DTGMP,DTCC GCF Repo Index - MBS Total Par Value
 COM/DTGRT,DTCC GCF Repo Index - Treasury Weighted Average
 COM/DTGTP,DTCC GCF Repo Index - Treasury Par Value
-COM/EGGS,"Eggs, large white, Chicago dozen"
+COM/EGGS,Eggs, large white, Chicago dozen
 COM/FEDFU,U.S. Federal Funds Effective Rate
-COM/FE_TJN,"Iron Ore 62% Fe CFR China,CME"
-COM/FE_VALE,"Iron Ore, 62%, Vale"
-COM/FUELOIL,"Fuel oil, No. 2 NY gal."
-COM/GAS_CR,"Gasoline:Gasoline, conventional, regular NY gal"
-COM/GREASE,"Grease, choice white, Chicago / lb."
+COM/FE_TJN,Iron Ore 62% Fe CFR China,CME
+COM/FUELOIL,Fuel oil, No. 2 NY gal.
+COM/GAS_CR,Gasoline:Gasoline, conventional, regular NY gal
+COM/GREASE,Grease, choice white, Chicago _ lb.
 COM/HIDES,Heavy Native Steer Hides
-COM/HIDES_LB,"Steer Hides, Butt Brand/PC"
-COM/HOGS,"Hogs, Iowa"
-COM/HOMINY,"Hominy feed, Cent. Ill. ton"
+COM/HOGS,Hogs, Iowa
+COM/HOMINY,Hominy feed, Cent. Ill. ton
 COM/ITRXEUC,Markit iTraxx Europe Crossover Index
-COM/LCDX,Markit LCDX Index (Loan CDS)
 COM/MCDX,Markit MCDX Index (Municipal CDS)
-COM/MILK,"Milk, Nonfat dry, Chicago"
-COM/OATS,"Oats, No. 2 milling, Mnpls; $ per bu"
-COM/OIL_BRENT,"Crude Oil, Brent Blend, North Sea"
-COM/OIL_WTI,"West Texas Intermediate, Cushing"
-COM/PA_EFP,"Palladium, Engelhard fabricated products"
-COM/PALLFNF_INDEX,"All Commodity Price Index, 2005 = 100, includes both Fuel and Non-Fuel Price Indices"
-COM/PALUM_USD,"Aluminum, 99.5% minimum purity, LME spot price, CIF UK ports, US$ per metric ton"
-COM/PBANSOP_USD,"Bananas, Central American and Ecuador, FOB U.S. Ports, US$ per metric ton"
-COM/PBARL_USD,"Barley, Canadian no.1 Western Barley, spot price, US$ per metric ton"
-COM/PBEEF_USD,"Beef, Australian and New Zealand 85% lean fores, CIF U.S. import price, US cents per pound"
-COM/PBEVE_INDEX,"Beverage Price Index, 2005 = 100, includes Coffee, Tea, and Cocoa"
-COM/PCOALAU_USD,"Coal, Australian thermal coal, 12,000- btu/pound, less than 1% sulfur, 14% ash, FOB Newcastle/Port Kembla, US$ per metric ton"
-COM/PCOCO_USD,"Cocoa beans, International Cocoa Organization cash price, CIF US and European ports, US$ per metric ton"
-COM/PCOFFOTM_USD,"Coffee, Other Mild Arabicas, International Coffee Organization New York cash price, ex-dock New York, US cents per pound"
-COM/PCOFFROB_USD,"Coffee, Robusta, International Coffee Organization New York cash price, ex-dock New York, US cents per pound"
-COM/PCOPP_USD,"Copper, grade A cathode, LME spot price, CIF European ports, US$ per metric ton"
-COM/PCOTTIND_USD,"Cotton, Cotton Outlook 'A Index', Middling 1-3/32 inch staple, CIF Liverpool, US cents per pound"
-COM/PFANDB_INDEX,"Food and Beverage Price Index, 2005 = 100, includes Food and Beverage Price Indices"
-COM/PFISH_USD,"Fishmeal, Peru Fish meal/pellets 65% protein, CIF, US$ per metric ton"
-COM/PFOOD_INDEX,"Food Price Index, 2005 = 100, includes Cereal, Vegetable Oils, Meat, Seafood, Sugar, Bananas, and Oranges Price Indices"
-COM/PGNUTS_USD,"Groundnuts (peanuts), 40/50 (40 to 50 count per ounce), cif Argentina, US$ per metric ton"
-COM/PHIDE_USD,"Hides, Heavy native steers, over 53 pounds, wholesale dealer's price, US, Chicago, fob Shipping Point, US cents per pound"
-COM/PINDU_INDEX,"Industrial Inputs Price Index, 2005 = 100, includes Agricultural Raw Materials and Metals Price Indices"
-COM/PIORECR_USD,"China import Iron Ore Fines 62% FE spot (CFR Tianjin port), US dollars per metric ton"
-COM/PLAMB_USD,"Lamb, frozen carcass Smithfield London, US cents per pound"
-COM/PLEAD_USD,"Lead, 99.97% pure, LME spot price, CIF European Ports, US$ per metric ton"
+COM/MILK,Milk, Nonfat dry, Chicago
+COM/OATS,Oats, No. 2 milling, Mnpls
+COM/OIL_BRENT,Crude Oil, Brent Blend, North Sea
+COM/OIL_WTI,West Texas Intermediate, Cushing
+COM/PA_EFP,Palladium, Engelhard fabricated products
 COM/PL_EFP,Engelhard fabricated products: Platinum
-COM/PL_EIB,"Platinum, Engelhard industrial bullion"
-COM/PLOGORE_USD,"Soft Logs, Average Export price from the U.S. for Douglas Fir, US$ per cubic meter"
-COM/PLOGSK_USD,"Hard Logs, Best quality Malaysian meranti, import price Japan, US$ per cubic meter"
-COM/PMAIZMT_USD,"Maize (corn), U.S. No.2 Yellow, FOB Gulf of Mexico, U.S. price, US$ per metric ton"
-COM/PMETA_INDEX,"Metals Price Index, 2005 = 100, includes Copper, Aluminum, Iron Ore, Tin, Nickel, Zinc, Lead, and Uranium Price Indices"
-COM/PNFUEL_INDEX,"Non-Fuel Price Index, 2005 = 100, includes Food and Beverages and Industrial Inputs Price Indices"
-COM/PNGASEU_USD,"Natural Gas, Russian Natural Gas border price in Germany, US$ per Million Metric British Thermal Unit"
-COM/PNGASJP_USD,"Natural Gas, Indonesian Liquefied Natural Gas in Japan, US$ per Million Metric British Thermal Unit"
-COM/PNGASUS_USD,"Natural Gas, Natural Gas spot price at the Henry Hub terminal in Louisiana, US$ per Million Metric British Thermal Unit"
-COM/PNICK_USD,"Nickel, melting grade, LME spot price, CIF European ports, US$ per metric ton"
-COM/PNRG_INDEX,"Fuel (Energy) Index, 2005 = 100, includes Crude oil (petroleum), Natural Gas, and Coal Price Indices"
-COM/POILAPSP_INDEX,"Crude Oil (petroleum), Price index, 2005 = 100, simple average of three spot prices; Dated Brent, West Texas Intermediate, and the Dubai Fateh"
-COM/POILAPSP_USD,"Crude Oil (petroleum), simple average of three spot prices; Dated Brent, West Texas Intermediate, and the Dubai Fateh"
-COM/POILBRE_USD,"Crude Oil (petroleum),  Dated Brent, light blend 38 API, fob U.K., US$ per barrel"
-COM/POILDUB_USD,"Oil; Dubai, medium, Fateh 32 API, fob Dubai Crude Oil (petroleum), Dubai Fateh Fateh 32 API, US$ per barrel"
-COM/POILWTI_USD,"Crude Oil (petroleum), West Texas Intermediate 40 API, Midland Texas, US$ per barrel"
-COM/POLVOIL_USD,"Olive Oil, extra virgin less than 1% free fatty acid, ex-tanker price U.K., US$ per metric ton"
-COM/PORANG_USD,"Oranges, miscellaneous oranges CIF French import price, US$ per metric ton"
-COM/PPOIL_USD,"Palm oil, Malaysia Palm Oil Futures (first contract forward) 4-5 percent FFA, US$ per metric ton"
-COM/PPORK_USD,"Swine (pork), 51-52% lean Hogs, U.S. price, US cents per pound."
-COM/PPOULT_USD,"Poultry (chicken), Whole bird spot price, Ready-to-cook, whole, iced, Georgia docks, US cents per pound"
-COM/PRAWM_INDEX,"Agricultural Raw Materials Index, 2005 = 100, includes Timber, Cotton, Wool, Rubber, and Hides Price Indices"
-COM/PRICENPQ_USD,"Rice, 5 percent broken milled white rice, Thailand nominal price quote, US$ per metric ton"
-COM/PROIL_USD,"Rapeseed oil, crude, fob Rotterdam, US$ per metric ton"
-COM/PRUBB_USD,"Rubber, Singapore Commodity Exchange, No. 3 Rubber Smoked Sheets, 1st contract, US cents per pound"
-COM/PRUSA,U.S. Prime Rate
-COM/PSALM_USD,"Fish (salmon), Farm Bred Norwegian Salmon, export price, US$ per kilogram"
-COM/PSAWMAL_USD,"Hard Sawnwood, Dark Red Meranti, select and better quality, C&F U.K port, US$ per cubic meter"
-COM/PSAWORE_USD,"Soft Sawnwood, average export price of Douglas Fir, U.S. Price, US$ per cubic meter"
-COM/PSHRI_USD,"Shrimp, No.1 shell-on headless, 26-30 count per pound, Mexican origin, New York port, US$ per kilogram"
-COM/PSMEA_USD,"Soybean Meal, Chicago Soybean Meal Futures (first contract forward) Minimum 48 percent protein, US$ per metric ton"
-COM/PSOIL_USD,"Soybean Oil, Chicago Soybean Oil Futures (first contract forward) exchange approved grades, US$ per metric ton"
-COM/PSOYB_USD,"Soybeans, U.S. soybeans, Chicago Soybean futures contract (first contract forward) No. 2 yellow and par, US$ per metric ton"
-COM/PSUGAEEC_USD,"Sugar, European import price, CIF Europe, US cents per pound"
-COM/PSUGAISA_USD,"Sugar, Free Market, Coffee Sugar and Cocoa Exchange (CSCE) contract no.11 nearest future position, US cents per pound"
-COM/PSUGAUSA_USD,"Sugar, U.S. import price, contract no.14 nearest futures position, US cents per pound (Footnote: No. 14 revised to No. 16)"
-COM/PSUNO_USD,"Sunflower oil, Sunflower Oil, US export price from Gulf of Mexico, US$ per metric ton"
-COM/PTEA_USD,"Tea, Mombasa, Kenya, Auction Price, US cents per kilogram, From July 1998,Kenya auctions, Best Pekoe Fannings. Prior, London auctions, c.i.f. U.K. warehouses"
-COM/PTIN_USD,"Tin, standard grade, LME spot price, US$ per metric ton"
-COM/PURAN_USD,"Uranium, NUEXCO, Restricted Price, Nuexco exchange spot, US$ per pound"
-COM/PWHEAMT_USD,"Wheat, No.1 Hard Red Winter, ordinary protein, Kansas City, US$ per metric ton"
-COM/PWOOLC_USD,"Wool, coarse, 23 micron, Australian Wool Exchange spot quote, US cents per kilogram"
-COM/PWOOLF_USD,"Wool, fine, 19 micron, Australian Wool Exchange spot quote, US cents per kilogram"
-COM/PZINC_USD,"Zinc, high grade 98% pure, US$ per metric ton"
-COM/RICE_2,"Rice, Long Grain Milled, No. 2 AR"
+COM/PL_EIB,Platinum, Engelhard industrial bullion
+COM/RICE_2,Rice, Long Grain Milled, No. 2 AR
 COM/SORGHUM,No. 2 Grain Sorghum: Texas Gulf
-COM/SOYB_1,"Soybeans, No. 1 yellow Illinois, bu"
-COM/SOYB_MEAL,"Soybean Meal, Cent. Ill., rail, ton 48%"
-COM/SOYB_OIL,"Soybean oil, crude; Central Illinois lb."
-COM/TALLOW_B,"Tallow, bleachable; Chicago / lb."
-COM/TALLOW_E,"Tallow, edible, Chicago / lb."
-COM/WHEAT_14_5_MN,"Wheat, Spring 14.5%"
-COM/WHEAT_15_MN,"Wheat, Spring 15%"
-COM/WHEAT_1,"Wheat, No. 1 soft white, del Portland, Ore"
-COM/WHEAT_2,"Wheat, No. 2 soft red, St.Louis, bushel"
-COM/WHEAT_KC,"Wheat, hard, KC, bu"
-COM/WHEAT_MN,"Wheat, Spring 14%"
-COM/WOOL_58,"Wool, 58s, staple, Terr. delivery lb."
-COM/WOOL_60_62,"Wool, 60-62s, staple, Terr. delivery lb."
-COM/WOOL_60,"Wool, 60s, staple, Terr. delivery lb."
-COM/WOOL_62,"Wool, 62s, staple, Terr. delivery lb."
-COM/WOOL,"Wool, 64s, staple, Terr. delivery lb."
+COM/SOYB_1,Soybeans, No. 1 yellow Illinois, bu
+COM/SOYB_MEAL,Soybean Meal, Cent. Ill., rail, ton 48%
+COM/SOYB_OIL,Soybean oil, crude
+COM/TALLOW_B,Tallow, bleachable
+COM/WHEAT_2,Wheat, No. 2 soft red, St.Louis, bushel
+COM/WHEAT_KC,Wheat, hard, KC, bu
+COM/WHEAT_MN,Wheat, Spring 14%
 OPEC/ORB,OPEC Crude Oil Price
+RICI/RICI,Euronext Rogers International Commodity Index
 RICI/RICIA,Euronext Rogers International Agriculture Commodity Index
 RICI/RICIE,Euronext Rogers International Energy Commodity Index
-RICI/RICI,Euronext Rogers International Commodity Index
 RICI/RICIM,Euronext Rogers International Metals Commodity Index
